@@ -1,3 +1,4 @@
+
 ---
 title: Data Compiler
 
@@ -32,10 +33,14 @@ Here are in-depth instructions to install the software.
 ![windows system page](https://i.imgur.com/Q0uFEDU.png)
 3. Go to the [releases page](https://github.com/thompson-lab/data-compiler/releases) and select the installer with the bit number you saw in step 2.
 ![releases page](https://i.imgur.com/7Tkwu1w.png)
-4. Run the installer. At some point, you will see a window like this appear. Click OK.![labview 1](https://i.imgur.com/EfiVMjZ.png)
+4. Run the installer. At some point, you will see a window like this appear. Click OK.
+    ![labview 1](https://i.imgur.com/EfiVMjZ.png)
     
     Then, you'll see this window; click Unzip.
-  ![labview 2](https://i.imgur.com/6YrC5T9.png)
+    
+    ![labview 2](https://i.imgur.com/6YrC5T9.png)
+    
     At that point, the installation will continue, but a LabView installer will also open. **Do not open the Data Compiler software until the LabView installer has completed.**
 5. Restart your computer.
 5. Once the run-time is properly installed (the LabView installer closes), you can open Data Compiler and use it.
+
