@@ -22,6 +22,7 @@ Using the program is quite simple, but here are in-depth instructions that will 
 
 # Installation
 Here are in-depth instructions to install the software.
+
 > **NOTE:** Data Compiler is currently only available on Windows.
 
 > **NOTE:** Data Compiler is powered by LabView 2017, so you'll need the LabView runtime environment to run the software. This is bundled into the installers, so all you need to do is download the correct file for your computer.
