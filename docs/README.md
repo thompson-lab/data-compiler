@@ -1,3 +1,4 @@
+
 ---
 title: Data Compiler
 
@@ -42,3 +43,4 @@ Here are in-depth instructions to install the software.
     At that point, the installation will continue, but a LabView installer will also open. **Do not open the Data Compiler software until the LabView installer has completed.**
 5. Restart your computer.
 5. Once the run-time is properly installed (the LabView installer closes), you can open Data Compiler and use it.
+
