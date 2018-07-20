@@ -10,6 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="add-column.vi" Type="VI" URL="../add-column.vi"/>
+		<Item Name="extension-remover.vi" Type="VI" URL="../extension-remover.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="parse.vi" Type="VI" URL="../stellarnet/parse.vi"/>
 		<Item Name="time-parse.vi" Type="VI" URL="../time-parse.vi"/>
@@ -44,36 +46,37 @@
 			<Item Name="time.vi" Type="VI" URL="../time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="StellarNet" Type="EXE">
+			<Item Name="Compiler" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2F72D91D-1022-4E12-8F6E-BD949234C8D2}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C0D81645-ADE0-40B4-B887-1E61CF4DE957}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E6808B9D-44BC-4365-BAEE-CB640CEFD4C0}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">StellarNet</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Compiler</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/StellarNet</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ACA744C7-417F-42E7-B02B-598BF0797ABA}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">StellarNet.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/StellarNet/StellarNet.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Compiler.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Compiler.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/StellarNet/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9AC81AB4-6AA6-4507-B33F-E1E3A1EBF853}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{32FE77F7-2EE9-42D0-9642-985CCA3452E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].newName" Type="Str">Data Compiler.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Show vertical scroll bar</Property>
@@ -88,12 +91,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">StellarNet</Property>
-				<Property Name="TgtF_internalName" Type="Str">StellarNet</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Compiler</Property>
+				<Property Name="TgtF_internalName" Type="Str">Compiler</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">StellarNet</Property>
+				<Property Name="TgtF_productName" Type="Str">Compiler</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67BF47E9-064C-4D6F-87CD-66A781D664C4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">StellarNet.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Compiler.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
