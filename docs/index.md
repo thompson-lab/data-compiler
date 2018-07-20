@@ -1,9 +1,3 @@
-
----
-title: Data Compiler
-
----
-
 # About
 The compiler takes in exported data from a spectrometer, especially if after an episodic capture, and combines all files into one spreadsheet.
 
