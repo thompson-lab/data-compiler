@@ -14,6 +14,7 @@
 		<Item Name="extension-remover.vi" Type="VI" URL="../extension-remover.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="parse.vi" Type="VI" URL="../stellarnet/parse.vi"/>
+		<Item Name="path-list.vi" Type="VI" URL="../path-list.vi"/>
 		<Item Name="time-parse.vi" Type="VI" URL="../time-parse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
